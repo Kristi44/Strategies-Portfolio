@@ -211,8 +211,8 @@ for strategy in [strategy_equi, strategy_min_var, strategy_erc]:
     print(f"Maximum Drawdown: {strategy.max_drawdown()[0]:.2%}")
     print("-" * 50)
 
-print(f"Les poids pour un portefeuille de Minimum Variance sont : {weights_min_var}")
-print(f"Les poids pour un portefeuille de ERC sont: {weights_erc}")
+print(f" The weights of the Minimum Variance Portfolio are  : {weights_min_var}")
+print(f"The weights of the ERC Portfolio are: {weights_erc}")
 
 print(strategy_erc.cumulative_values.iloc[-1])
 print(strategy_erc.cumulative_values.iloc[1])
